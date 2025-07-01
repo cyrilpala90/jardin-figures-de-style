@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #f4f1ec;
+  color: #333;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#scene-image {
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#text-box {
+  flex: 1;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  overflow-y: auto;
+}
+
+#narration {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+#choices button {
+  margin: 10px 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  background-color: #91c788;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+#choices button:hover {
+  background-color: #77b76a;
+}
